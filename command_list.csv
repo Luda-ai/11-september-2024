@@ -1,0 +1,32 @@
+    1  git config --global user.name "Ludmula Kyzmenko"
+    2  git config --global user/email kyzmenkolm@gmail.com
+    3  git config --global user.email kyzmenkolm@gmail.com
+    4  git clone 11-september-2024
+    5  git clone https://github.com/Luda-ai/11-september-2024.git
+    6  cd 11-september-2024
+    7  touch text_ignore.txt
+    8  vim .gitignore
+    9  vim .gitignore.txt
+   10  git status
+   11  git add .gitignore
+   12  git add .gitignore.txt
+   13  git status
+   14  git commit -m "Task1"
+   15  touch main_test.txt
+   16  git status
+   17  git add main_test.txt
+   18  git commit m- "Task2"
+   19  git commit -m "Task2"
+   20  git checkout -b branch_develop
+   21  git checkout branch_develop
+   22  touch develop_test.txt
+   23  vim develop_test.txt
+   24  git dtatus
+   25  git status
+   26  git add develop_test.txt
+   27  git commit -m "Task3"
+   28  git checkout branch_main
+   29  git checkout main
+   30  git merge branch_develop
+   31  git log
+   32  history > command_list.csv
